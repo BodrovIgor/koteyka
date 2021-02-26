@@ -28,27 +28,29 @@
           <a class="page-nav__tel-link page-link" href="tel:+78003335599">8 (800) 333-55-99</a>
           <div class="page-nav__socials socials">
             <h3 class="socials__title page-title"></h3>
-            <a class="socials__link page-link" href="#">
-              <figure class="socials__link-icon page-figure">
-                <svg class="socials__icon-img">
-                  <use href="../img/sprite.svg#icon-facebook"></use>
-                </svg>
-              </figure>
-            </a>
-            <a class="socials__link page-link" href="#">
-              <figure class="socials__link-icon page-figure">
-                <svg class="socials__icon-img">
-                  <use href="../img/sprite.svg#icon-instagram"></use>
-                </svg>
-              </figure>
-            </a>
-            <a class="socials__link page-link" href="#">
-              <figure class="socials__link-icon page-figure">
-                <svg class="socials__icon-img">
-                  <use href="../img/sprite.svg#icon-vk"></use>
-                </svg>
-              </figure>
-            </a>
+            <div class="socials__links-container">
+              <a class="socials__link page-link" href="#">
+                <figure class="socials__link-icon page-figure">
+                  <svg class="socials__icon-img">
+                    <use href="../img/sprite.svg#icon-facebook" width="24" height="24"></use>
+                  </svg>
+                </figure>
+              </a>
+              <a class="socials__link page-link" href="#">
+                <figure class="socials__link-icon page-figure">
+                  <svg class="socials__icon-img">
+                    <use href="../img/sprite.svg#icon-instagram" width="24" height="24"></use>
+                  </svg>
+                </figure>
+              </a>
+              <a class="socials__link page-link" href="#">
+                <figure class="socials__link-icon page-figure">
+                  <svg class="socials__icon-img">
+                    <use href="../img/sprite.svg#icon-vk" width="24" height="24"></use>
+                  </svg>
+                </figure>
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -62,7 +64,7 @@
           <button class="headline__order-button order-button page-button" type="button">
             <span class="order-button__button-text">Забронировать</span>
             <figure class="order-button__button-icon page-figure">
-              <img class="" src="../img/paw.svg" alt="" width="" height="">
+              <img class="order-button__button-img" src="../img/paw.svg" alt="Лапка" width="21" height="18">
             </figure>
           </button>
         </div>
@@ -72,37 +74,83 @@
   <main class="page-content">
     <section class="features">
       <div class="features__container container">
-        <h2 class="features__title section-title page-title"></h2>
+        <h2 class="features__title section-title page-title">Почему мы?</h2>
         <div class="features__items-container">
           <div class="features__item">
-            <figure class="features__item-icon page-figure"></figure>
-            <h3 class="features__item-title page-title"></h3>
-            <p class="features__item-desc page-par"></p>
+            <figure class="features__item-icon page-figure">
+              <svg class="features__item-img">
+                <use href="../img/sprite.svg#icon-temperature"></use>
+              </svg>
+            </figure>
+            <h3 class="features__item-title page-title">Комфортная температура</h3>
+            <p class="features__item-desc page-par">
+              Во всех номерах поддерживается комфортная
+              температура в пределах 23 - 25 градусов.
+              В каждом номере можно дополнительно отрегулировать температуру.
+            </p>
           </div>
           <div class="features__item">
-            <figure class="features__item-icon page-figure"></figure>
-            <h3 class="features__item-title page-title"></h3>
-            <p class="features__item-desc page-par"></p>
+            <figure class="features__item-icon page-figure">
+              <svg class="features__item-img">
+                <use href="../img/sprite.svg#icon-temperature"></use>
+              </svg>
+            </figure>
+            <h3 class="features__item-title page-title">Видеонаблюдение</h3>
+            <p class="features__item-desc page-par">
+              Мы предоставляем доступ
+              в нашу систему. Вы сможете следить
+              за своим питомцем со своего смартфона или компьютера.
+            </p>
           </div>
           <div class="features__item">
-            <figure class="features__item-icon page-figure"></figure>
-            <h3 class="features__item-title page-title"></h3>
-            <p class="features__item-desc page-par"></p>
+            <figure class="features__item-icon page-figure">
+              <svg class="features__item-img">
+                <use href="../img/sprite.svg#icon-taxi"></use>
+              </svg>
+            </figure>
+            <h3 class="features__item-title page-title">Услуги Зоотакси</h3>
+            <p class="features__item-desc page-par">
+              Мы приедем за вашим питомцем в любой район Санкт-Петербурга.
+            </p>
           </div>
           <div class="features__item">
-            <figure class="features__item-icon page-figure"></figure>
-            <h3 class="features__item-title page-title"></h3>
-            <p class="features__item-desc page-par"></p>
+            <figure class="features__item-icon page-figure">
+              <svg class="features__item-img">
+                <use href="../img/sprite.svg#icon-food"></use>
+              </svg>
+            </figure>
+            <h3 class="features__item-title page-title">Сбалансированное питание</h3>
+            <p class="features__item-desc page-par">
+              Вы можете привезти свой корм
+              или доверить рацион своего
+              питомца нашим профессионалам.
+            </p>
           </div>
           <div class="features__item">
-            <figure class="features__item-icon page-figure"></figure>
-            <h3 class="features__item-title page-title"></h3>
-            <p class="features__item-desc page-par"></p>
+            <figure class="features__item-icon page-figure">
+              <svg class="features__item-img">
+                <use href="../img/sprite.svg#icon-cat"></use>
+              </svg>
+            </figure>
+            <h3 class="features__item-title page-title">Ежедневные прогулки</h3>
+            <p class="features__item-desc page-par">
+              По вашему желанию мы
+              выгуливаем вашего питомца два раза в день на
+              специализированной закрытой территории.
+            </p>
           </div>
           <div class="features__item">
-            <figure class="features__item-icon page-figure"></figure>
-            <h3 class="features__item-title page-title"></h3>
-            <p class="features__item-desc page-par"></p>
+            <figure class="features__item-icon page-figure">
+              <svg class="features__item-img">
+                <use href="../img/sprite.svg#icon-vets"></use>
+              </svg>
+            </figure>
+            <h3 class="features__item-title page-title">Лучшие ветеринары</h3>
+            <p class="features__item-desc page-par">
+              В гостинице 24 часа дежурит ветеринарный врач,
+              который окажет любую помощь
+              в случае необходимости.
+            </p>
           </div>
         </div>
       </div>
@@ -110,45 +158,69 @@
 
     <section class="rooms-slider">
       <div class="rooms-slider__container container">
-        <h2 class="rooms-slider__title section-title page-title"></h2>
+        <h2 class="rooms-slider__title section-title page-title">Номера</h2>
         <div class="rooms-slider__items-container">
           <div class="rooms-slider__item">
-            <figure class="rooms-slider__item-icon page-figure"></figure>
-            <h3 class="rooms-slider__item-title page-title"></h3>
+            <figure class="rooms-slider__item-icon page-figure">
+              <picture class="rooms-slider__item-image">
+                <source srcset="../img/desktop/room1-desktop.jpg" media="(min-width: $screen-xl)">
+                <source srcset="../img/tablet/room1-tablet.jpg" media="(min-width: $screen-md)">
+                <img class="rooms-slider__item-img" src="../img/mobile/room1-mobile.jpg" alt="Эконом плюс" width="290" height="192">
+              </picture>
+            </figure>
+            <h3 class="rooms-slider__item-title page-title">Эконом плюс</h3>
             <ul class="rooms-slider__item-features page-list">
-              <li class="rooms-slider__feature-item"><span class="rooms-slider__feature-desc"></span></li>
-              <li class="rooms-slider__feature-item"><span class="rooms-slider__feature-desc"></span></li>
-              <li class="rooms-slider__feature-item"><span class="rooms-slider__feature-desc"></span></li>
+              <li class="rooms-slider__feature-item"><span class="rooms-slider__feature-desc">Площадь - 0,90 м2</span></li>
+              <li class="rooms-slider__feature-item"><span class="rooms-slider__feature-desc">Размеры (ШхГхВ)90х100х180 см</span></li>
+              <li class="rooms-slider__feature-item"><span class="rooms-slider__feature-desc">Цена за сутки: 200₽</span></li>
             </ul>
             <button class="rooms-slider__order-button order-button page-button" type="button">
-              <span class="order-button__button-text"></span>
-              <figure class="order-button__button-icon page-figure"></figure>
+              <span class="order-button__button-text">Забронировать</span>
+              <figure class="order-button__button-icon page-figure">
+                <img class="order-button__button-img" src="../img/paw.svg" alt="" width="21" height="18">
+              </figure>
             </button>
           </div>
           <div class="rooms-slider__item">
-            <figure class="rooms-slider__item-icon page-figure"></figure>
-            <h3 class="rooms-slider__item-title page-title"></h3>
+            <figure class="rooms-slider__item-icon page-figure">
+              <picture class="rooms-slider__item-image">
+                <source srcset="../img/desktop/room2-desktop.jpg" media="(min-width: $screen-xl)">
+                <source srcset="../img/tablet/room2-tablet.jpg" media="(min-width: $screen-md)">
+                <img class="rooms-slider__item-img" src="../img/mobile/room2-mobile.jpg" alt="Эконом плюс" width="290" height="192">
+              </picture>
+            </figure>
+            <h3 class="rooms-slider__item-title page-title">Комфорт</h3>
             <ul class="rooms-slider__item-features page-list">
-              <li class="rooms-slider__feature-item"><span class="rooms-slider__feature-desc"></span></li>
-              <li class="rooms-slider__feature-item"><span class="rooms-slider__feature-desc"></span></li>
-              <li class="rooms-slider__feature-item"><span class="rooms-slider__feature-desc"></span></li>
+              <li class="rooms-slider__feature-item"><span class="rooms-slider__feature-desc">Площадь - 1,13 м2</span></li>
+              <li class="rooms-slider__feature-item"><span class="rooms-slider__feature-desc">Размеры (ШхГхВ)100х125х180 см</span></li>
+              <li class="rooms-slider__feature-item"><span class="rooms-slider__feature-desc">Цена за сутки: 250₽</span></li>
             </ul>
             <button class="rooms-slider__order-button order-button page-button" type="button">
-              <span class="order-button__button-text"></span>
-              <figure class="order-button__button-icon page-figure"></figure>
+              <span class="order-button__button-text">Забронировать</span>
+              <figure class="order-button__button-icon page-figure">
+                <img class="order-button__button-img" src="../img/paw.svg" alt="" width="21" height="18">
+              </figure>
             </button>
           </div>
           <div class="rooms-slider__item">
-            <figure class="rooms-slider__item-icon page-figure"></figure>
-            <h3 class="rooms-slider__item-title page-title"></h3>
+            <figure class="rooms-slider__item-icon page-figure">
+              <picture class="rooms-slider__item-image">
+                <source srcset="../img/desktop/room3-desktop.jpg" media="(min-width: $screen-xl)">
+                <source srcset="../img/tablet/room3-tablet.jpg" media="(min-width: $screen-md)">
+                <img class="rooms-slider__item-img" src="../img/mobile/room3-mobile.jpg" alt="Эконом плюс" width="290" height="192">
+              </picture>
+            </figure>
+            <h3 class="rooms-slider__item-title page-title">Сьют</h3>
             <ul class="rooms-slider__item-features page-list">
-              <li class="rooms-slider__feature-item"><span class="rooms-slider__feature-desc"></span></li>
-              <li class="rooms-slider__feature-item"><span class="rooms-slider__feature-desc"></span></li>
-              <li class="rooms-slider__feature-item"><span class="rooms-slider__feature-desc"></span></li>
+              <li class="rooms-slider__feature-item"><span class="rooms-slider__feature-desc">Площадь - 1,56 м2</span></li>
+              <li class="rooms-slider__feature-item"><span class="rooms-slider__feature-desc">Размеры (ШхГхВ)125х125х180 см</span></li>
+              <li class="rooms-slider__feature-item"><span class="rooms-slider__feature-desc">Цена за сутки: 350₽</span></li>
             </ul>
             <button class="rooms-slider__order-button order-button page-button" type="button">
-              <span class="order-button__button-text"></span>
-              <figure class="order-button__button-icon page-figure"></figure>
+              <span class="order-button__button-text">Забронировать</span>
+              <figure class="order-button__button-icon page-figure">
+                <img class="order-button__button-img" src="../img/paw.svg" alt="" width="21" height="18">
+              </figure>
             </button>
           </div>
         </div>
@@ -183,27 +255,45 @@
     </section>
 
     <section class="reviews-slider">
-      <h2 class="reviews-slider__title page-title"></h2>
+      <h2 class="reviews-slider__title page-title">Отзывы</h2>
       <div class="reviews-slider__items-container">
         <div class="review-slider__item">
-          <p class="reviews-slider__item-desc page-par"></p>
+          <p class="reviews-slider__item-desc page-par">
+            Мой кот — настоящая привереда, угодить ему сложно.
+            У меня были особые требования к уходу за ним,
+            и “Котейка” отлично справились.
+            Я часто наблюдал по видео за питомцем со своего телефона,
+            это очень удобно.
+          </p>
           <div class="reviews-slider__item-underline">
-            <span class="reviews-slider__item-author"></span>
-            <span class="reviews-slider__item-date"></span>
+            <span class="reviews-slider__item-author">Павел Нечаев</span>
+            <span class="reviews-slider__item-date">2 августа, 2019</span>
           </div>
         </div>
         <div class="review-slider__item">
-          <p class="reviews-slider__item-desc page-par"></p>
+          <p class="reviews-slider__item-desc page-par">
+            Первый раз пришлось оставить нашего котика
+            в гостинице, очень переживали.
+            Администратор Мария каждый день высылала нам фото нашего питомца,
+            рассказывала, как он себя чувствует.
+            И мы и котик остались очень довольны!
+          </p>
           <div class="reviews-slider__item-underline">
-            <span class="reviews-slider__item-author"></span>
-            <span class="reviews-slider__item-date"></span>
+            <span class="reviews-slider__item-author">Валерия Гришаева</span>
+            <span class="reviews-slider__item-date">15 ноября, 2019</span>
           </div>
         </div>
         <div class="review-slider__item">
-          <p class="reviews-slider__item-desc page-par"></p>
+          <p class="reviews-slider__item-desc page-par">
+            Гостиницу для питомцев нам посоветовали друзья.
+            Они всегда оставляют здесь своего кота, когда уезжают.
+            В “Котейке” очень хорошо заботятся о питомцах,
+            в гостинице очень чисто. Всем рекомендую!
+            Будем обращаться еще.
+          </p>
           <div class="reviews-slider__item-underline">
-            <span class="reviews-slider__item-author"></span>
-            <span class="reviews-slider__item-date"></span>
+            <span class="reviews-slider__item-author">Екатерина Минаева</span>
+            <span class="reviews-slider__item-date">10 октября, 2019</span>
           </div>
         </div>
       </div>
@@ -239,27 +329,27 @@
     <section class="contacts">
       <div class="contacts__info-block">
         <div class="contacts__container container">
-          <h2 class="contacts__section-title page-title"></h2>
+          <h2 class="contacts__section-title page-title">Как нас найти</h2>
           <ul class="contacts__info-list page-list">
             <li class="contacts__list-item">
-              <h3 class="contacts__item-title page-title"></h3>
-              <a class="contacts__list-link" href="#"></a>
+              <h3 class="contacts__item-title page-title">Адрес</h3>
+              <span class="contacts__list-link">Санкт-Петербург, ул Большая Конюшенная, д 19</span>
             </li>
             <li class="contacts__list-item">
-              <h3 class="contacts__item-title page-title"></h3>
-              <a class="contacts__list-link" href="#"></a>
+              <h3 class="contacts__item-title page-title">Режим работы</h3>
+              <span class="contacts__list-link">Ежедневно, с 9:00 до 20:00</span>
             </li>
             <li class="contacts__list-item">
-              <h3 class="contacts__item-title page-title"></h3>
-              <a class="contacts__list-link" href="#"></a>
+              <h3 class="contacts__item-title page-title">Телефон</h3>
+              <a class="contacts__list-link" href="#">8 (800) 333-55-99</a>
             </li>
             <li class="contacts__list-item">
-              <h3 class="contacts__item-title page-title"></h3>
-              <a class="contacts__list-link" href="#"></a>
+              <h3 class="contacts__item-title page-title">E-mail</h3>
+              <a class="contacts__list-link" href="#">info@cat-hotel.ru</a>
             </li>
           </ul>
           <div class="contacts__socials socials">
-            <h3 class="socials__title page-title"></h3>
+            <h3 class="socials__title page-title">Социальные сети</h3>
             <a class="socials__link page-link" href="#">
               <figure class="socials__link-icon page-figure"></figure>
             </a>
