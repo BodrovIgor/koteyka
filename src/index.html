@@ -12,6 +12,9 @@
     <nav class="page-nav">
       <div class="page-nav__container container">
         <figure class="page-nav__logo page-figure">
+          <svg class="page-nav__icon-img">
+            <use href="../img/sprite.svg#icon-logo" width="63" height="52"></use>
+          </svg>
         </figure>
         <button class="page-nav__menu-button" type="button">
           <span class="page-nav__button-line"></span>
@@ -27,7 +30,7 @@
           </ul>
           <a class="page-nav__tel-link page-link" href="tel:+78003335599">8 (800) 333-55-99</a>
           <div class="page-nav__socials socials">
-            <h3 class="socials__title page-title"></h3>
+            <h3 class="socials__title page-title">Социальные сети</h3>
             <div class="socials__links-container">
               <a class="socials__link page-link" href="#">
                 <figure class="socials__link-icon page-figure">
@@ -337,28 +340,42 @@
             </li>
             <li class="contacts__list-item">
               <h3 class="contacts__item-title page-title">Режим работы</h3>
-              <span class="contacts__list-link">Ежедневно, с 9:00 до 20:00</span>
+              <span class="contacts__list-link page-link">Ежедневно, с 9:00 до 20:00</span>
             </li>
             <li class="contacts__list-item">
               <h3 class="contacts__item-title page-title">Телефон</h3>
-              <a class="contacts__list-link" href="#">8 (800) 333-55-99</a>
+              <a class="contacts__list-link page-link" href="#">8 (800) 333-55-99</a>
             </li>
             <li class="contacts__list-item">
               <h3 class="contacts__item-title page-title">E-mail</h3>
-              <a class="contacts__list-link" href="#">info@cat-hotel.ru</a>
+              <a class="contacts__list-link page-link" href="#">info@cat-hotel.ru</a>
             </li>
           </ul>
           <div class="contacts__socials socials">
             <h3 class="socials__title page-title">Социальные сети</h3>
-            <a class="socials__link page-link" href="#">
-              <figure class="socials__link-icon page-figure"></figure>
-            </a>
-            <a class="socials__link page-link" href="#">
-              <figure class="socials__link-icon page-figure"></figure>
-            </a>
-            <a class="socials__link page-link" href="#">
-              <figure class="socials__link-icon page-figure"></figure>
-            </a>
+            <div class="socials__links-container">
+              <a class="socials__link page-link" href="#">
+                <figure class="socials__link-icon page-figure">
+                  <svg class="socials__icon-img">
+                    <use href="../img/sprite.svg#icon-facebook" width="24" height="24"></use>
+                  </svg>
+                </figure>
+              </a>
+              <a class="socials__link page-link" href="#">
+                <figure class="socials__link-icon page-figure">
+                  <svg class="socials__icon-img">
+                    <use href="../img/sprite.svg#icon-instagram" width="24" height="24"></use>
+                  </svg>
+                </figure>
+              </a>
+              <a class="socials__link page-link" href="#">
+                <figure class="socials__link-icon page-figure">
+                  <svg class="socials__icon-img">
+                    <use href="../img/sprite.svg#icon-vk" width="24" height="24"></use>
+                  </svg>
+                </figure>
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -367,17 +384,21 @@
   </main>
   <footer class="page-footer">
     <div class="page-footer__nav">
-      <figure class="page-footer__nav-logo page-figure"></figure>
+      <figure class="page-footer__nav-logo page-figure">
+        <svg class="page-footer__icon-img">
+          <use href="../img/sprite.svg#icon-logo" width="63" height="52"></use>
+        </svg>
+      </figure>
       <ul class="page-footer__nav-list page-list">
-        <li class="page-footer__nav-item"><a class="page-footer__nav-link page-link"></a></li>
-        <li class="page-footer__nav-item"><a class="page-footer__nav-link page-link"></a></li>
-        <li class="page-footer__nav-item"><a class="page-footer__nav-link page-link"></a></li>
-        <li class="page-footer__nav-item"><a class="page-footer__nav-link page-link"></a></li>
+        <li class="page-footer__nav-item"><a class="page-footer__nav-link page-link" href="#">Почему мы?</a></li>
+        <li class="page-footer__nav-item"><a class="page-footer__nav-link page-link" href="#">Номера</a></li>
+        <li class="page-footer__nav-item"><a class="page-footer__nav-link page-link" href="#">Отзывы</a></li>
+        <li class="page-footer__nav-item"><a class="page-footer__nav-link page-link" href="#">Как нас найти</a></li>
       </ul>
     </div>
     <div class="page-footer__footer-info">
-      <span class="page-footer__rights-info"></span>
-      <span class="page-footer__policy-info"></span>
+      <span class="page-footer__rights-info">2019 Все права защищены</span>
+      <a class="page-footer__policy-info page-link" href="#">Политика конфиденциальности</a>
     </div>
   </footer>
 </body>
