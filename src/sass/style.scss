@@ -1,7 +1,7 @@
 @import 'global/variables';
+@import 'global/scaffolding';
 @import 'global/normalize';
 @import 'global/fonts';
-@import 'global/scaffolding';
 @import 'global/container';
 
 @import 'global/page-button';
@@ -11,9 +11,12 @@
 @import 'global/page-par';
 @import 'global/page-title';
 
+@import 'blocks/socials';
+@import 'blocks/order-button';
 @import 'blocks/page-header';
+@import 'blocks/page-nav';
+@import 'blocks/headline';
 @import 'blocks/page-content';
 @import 'blocks/page-footer';
 
-@import "blocks/page-nav";
-@import "blocks/headline";
+

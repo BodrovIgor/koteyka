@@ -13,7 +13,7 @@
       <div class="page-nav__container container">
         <figure class="page-nav__logo page-figure">
           <svg class="page-nav__icon-img">
-            <use class="puk" href="../img/sprite.svg#icon-logo"></use>
+            <use href="../img/sprite.svg#icon-logo"></use>
           </svg>
         </figure>
         <button class="page-nav__menu-button page-button" type="button">
@@ -21,38 +21,40 @@
           <span class="page-nav__button-line"></span>
           <span class="page-nav__button-line"></span>
         </button>
-        <div class="page-nav__mobile-menu">
-          <ul class="page-nav__nav-list page-list">
-            <li class="page-nav__nav-item"><a class="page-nav__nav-link page-link" href="#">Почему мы?</a></li>
-            <li class="page-nav__nav-item"><a class="page-nav__nav-link page-link" href="#">Номера</a></li>
-            <li class="page-nav__nav-item"><a class="page-nav__nav-link page-link" href="#">Отзывы</a></li>
-            <li class="page-nav__nav-item"><a class="page-nav__nav-link page-link" href="#">Как нас найти</a></li>
-          </ul>
-          <a class="page-nav__tel-link page-link" href="tel:+78003335599">8 (800) 333-55-99</a>
-          <div class="page-nav__socials socials">
-            <h3 class="socials__title page-title">Социальные сети</h3>
-            <div class="socials__links-container">
-              <a class="socials__link page-link" href="#">
-                <figure class="socials__link-icon page-figure">
-                  <svg class="socials__icon-img">
-                    <use href="../img/sprite.svg#icon-facebook" width="24" height="24"></use>
-                  </svg>
-                </figure>
-              </a>
-              <a class="socials__link page-link" href="#">
-                <figure class="socials__link-icon page-figure">
-                  <svg class="socials__icon-img">
-                    <use href="../img/sprite.svg#icon-instagram" width="24" height="24"></use>
-                  </svg>
-                </figure>
-              </a>
-              <a class="socials__link page-link" href="#">
-                <figure class="socials__link-icon page-figure">
-                  <svg class="socials__icon-img">
-                    <use href="../img/sprite.svg#icon-vk" width="24" height="24"></use>
-                  </svg>
-                </figure>
-              </a>
+        <div class="page-nav__mobile-menu page-nav__mobile-menu--off">
+          <div class="page-nav__menu-container">
+            <ul class="page-nav__nav-list page-list">
+              <li class="page-nav__nav-item"><a class="page-nav__nav-link page-link" href="#">Почему мы?</a></li>
+              <li class="page-nav__nav-item"><a class="page-nav__nav-link page-link" href="#">Номера</a></li>
+              <li class="page-nav__nav-item"><a class="page-nav__nav-link page-link" href="#">Отзывы</a></li>
+              <li class="page-nav__nav-item"><a class="page-nav__nav-link page-link" href="#">Как нас найти</a></li>
+            </ul>
+            <a class="page-nav__tel-link page-link" href="tel:+78003335599">8 (800) 333-55-99</a>
+            <div class="page-nav__socials socials">
+              <h3 class="socials__title page-title">Социальные сети</h3>
+              <div class="socials__links-container">
+                <a class="socials__link page-link" href="#">
+                  <figure class="socials__link-icon page-figure">
+                    <svg class="socials__icon-img">
+                      <use href="../img/sprite.svg#icon-facebook" width="24" height="24"></use>
+                    </svg>
+                  </figure>
+                </a>
+                <a class="socials__link page-link" href="#">
+                  <figure class="socials__link-icon page-figure">
+                    <svg class="socials__icon-img">
+                      <use href="../img/sprite.svg#icon-instagram" width="24" height="24"></use>
+                    </svg>
+                  </figure>
+                </a>
+                <a class="socials__link page-link" href="#">
+                  <figure class="socials__link-icon page-figure">
+                    <svg class="socials__icon-img">
+                      <use href="../img/sprite.svg#icon-vk" width="24" height="24"></use>
+                    </svg>
+                  </figure>
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -67,7 +69,9 @@
           <button class="headline__order-button order-button page-button" type="button">
             <span class="order-button__button-text">Забронировать</span>
             <figure class="order-button__button-icon page-figure">
-              <img class="order-button__button-img" src="../img/paw.svg" alt="Лапка" width="21" height="18">
+              <svg class="order-button__button-img">
+                <use href="../img/sprite.svg#icon-paw"></use>
+              </svg>
             </figure>
           </button>
         </div>

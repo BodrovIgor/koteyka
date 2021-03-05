@@ -1,3 +1,75 @@
 .headline {
-  background: url("../img/mobile/heading-mobile.jpg") no-repeat $color-orange;
+  background: url("../img/mobile/heading-mobile.jpg") no-repeat $color-yellow;
+  background-size: cover;
+  min-height: 457px;
+
+  @media (min-width: $screen-md) {
+    .headline {
+      background: url("../img/tablet/heading-tablet.jpg") no-repeat $color-yellow;
+      background-size: cover;
+      min-height: 868px;
+    }
+  }
+
+  @media (min-width: $screen-xl) {
+    .headline {
+      background: url("../img/desktop/heading-desktop.jpg") no-repeat $color-yellow;
+      background-size: cover;
+      min-height: 504px;
+    }
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-top: 50px;
+  }
+
+  &__city {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 0.80;
+
+    margin-bottom: 12px;
+  }
+
+  &__title {
+    font-family: "Rubik", "Arial", sans-serif;
+    font-weight: 700;
+    font-size: 44px;
+
+    margin-bottom: 22px;
+  }
+
+  &__desc {
+    font-weight: 500;
+    font-size: 16px;
+
+    margin-bottom: 40px;
+  }
+
+  &__order-button {
+    background-color: $color-white;
+  }
+
+  &__order-button .order-button__button-text {
+    color: $color-black;
+  }
+
+  &__order-button .order-button__button-icon {
+    background-color: $color-orange;
+  }
+
+  &__order-button .order-button__button-img {
+    fill: $color-white;
+  }
+
 }
+
+
+
+
+

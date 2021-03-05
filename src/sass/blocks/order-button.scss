@@ -1,0 +1,36 @@
+.order-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: $color-orange;
+  width: 206px;
+  height: 50px;
+  border-radius: 25px;
+
+  &__button-text {
+    font-weight: 600;
+    font-size: 14px;
+    color: $color-white;
+
+    margin-left: 30px;
+  }
+
+  &__button-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: $color-white;
+
+    margin-right: 7px;
+  }
+
+  &__button-img {
+    width: 21px;
+    height: 18px;
+    fill: $color-orange;
+  }
+}
