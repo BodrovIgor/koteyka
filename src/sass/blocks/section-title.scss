@@ -1,0 +1,9 @@
+.section-title {
+  font-family: "Rubik", "Arial", sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+@media (min-width: $screen-md) {
+  font-size: 36px;
+}
