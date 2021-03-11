@@ -4,7 +4,7 @@
   min-height: 457px;
 
   @media (min-width: $screen-md) {
-    .headline {
+    & {
       background: url("../img/tablet/heading-tablet.jpg") no-repeat $color-yellow;
       background-size: cover;
       min-height: 868px;
@@ -12,7 +12,7 @@
   }
 
   @media (min-width: $screen-xl) {
-    .headline {
+    & {
       background: url("../img/desktop/heading-desktop.jpg") no-repeat $color-yellow;
       background-size: cover;
       min-height: 504px;
@@ -26,6 +26,21 @@
     justify-content: space-between;
 
     margin-top: 50px;
+  }
+
+  @media (min-width: $screen-md) {
+    &__info {
+      margin-top: 140px;
+    }
+  }
+
+  @media (min-width: $screen-xl) {
+    &__info {
+      align-items: flex-start;
+
+      margin-top: 153px;
+      margin-left: 198px;
+    }
   }
 
   &__city {
